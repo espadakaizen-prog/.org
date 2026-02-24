@@ -1,0 +1,7 @@
+# Netlify Redirects
+# API and callback routes proxy to the server
+/callback    /index.html    200
+/api/*       /index.html    200
+
+# SPA fallback - all routes serve index.html
+/*           /index.html    200
